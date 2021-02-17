@@ -1,0 +1,22 @@
+
+ <!--1111111111111111 FOR INPUT DATA COMMUNICATION BETWEEN PARENT AND CHILD COMPONENTS  1111111111111111 -->
+<!-- <app-child [reviews]="books.booksReviews"></app-child> -->
+<!--1111111111111111 FOR INPUT DATA COMMUNICATION BETWEEN PARENT AND CHILD COMPONENTS  1111111111111111 -->
+
+<!--222222222222222222 FOR OUTPUT DATA COMMUNICATION BETWEEN CHILD TO PARENT COMPONENTS  USING EVENT EMITTER  22222222222222 -->
+<div>
+  <!-- <h1>Parent Component</h1> -->
+  <!-- SENDING STRING DATA -->
+<!-- <p>{{ message }}</p> -->
+
+<!-- SENDING ARRAY DATA -->
+<div *ngFor="let message of messages">
+  {{ message.name }} - {{ message.age }}
+  </div>
+
+<app-child (notify)="onNotifyClicked($event)"></app-child>
+  </div>
+<!--222222222222222222 FOR OUTPUT DATA COMMUNICATION BETWEEN CHILD TO PARENT COMPONENTS  USING EVENT EMITTER  22222222222222 -->
+
+
+

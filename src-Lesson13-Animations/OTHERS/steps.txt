@@ -1,0 +1,7 @@
+ng new animationsProj
+
+npm install --save bootstrap3
+
+animate.css
+animate.css -http://daneden.me/animate
+https://animate.style/

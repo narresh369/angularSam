@@ -1,0 +1,7 @@
+FormGroup
+in app.module.ts
+ReactiveFormsModule instead of FormsModule
+FormControl
+No need to use local reference as we already have the JSON Object
+Validators
+FormGroupName

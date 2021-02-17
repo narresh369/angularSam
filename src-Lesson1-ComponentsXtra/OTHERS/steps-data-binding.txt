@@ -1,0 +1,158 @@
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson3-Data-binding>ng new data-binding
+CREATE data-binding/angular.json (3602 bytes)
+CREATE data-binding/package.json (1317 bytes)
+CREATE data-binding/README.md (1028 bytes)
+CREATE data-binding/tsconfig.json (408 bytes)
+CREATE data-binding/tslint.json (2805 bytes)
+CREATE data-binding/.editorconfig (245 bytes)
+CREATE data-binding/.gitignore (503 bytes)
+CREATE data-binding/src/favicon.ico (5430 bytes)
+CREATE data-binding/src/index.html (298 bytes)
+CREATE data-binding/src/main.ts (370 bytes)
+CREATE data-binding/src/polyfills.ts (3194 bytes)
+CREATE data-binding/src/test.ts (642 bytes)
+CREATE data-binding/src/styles.css (80 bytes)
+CREATE data-binding/src/browserslist (388 bytes)
+CREATE data-binding/src/karma.conf.js (964 bytes)
+CREATE data-binding/src/tsconfig.app.json (166 bytes)
+CREATE data-binding/src/tsconfig.spec.json (256 bytes)
+CREATE data-binding/src/tslint.json (314 bytes)
+CREATE data-binding/src/assets/.gitkeep (0 bytes)
+CREATE data-binding/src/environments/environment.prod.ts (51 bytes)
+CREATE data-binding/src/environments/environment.ts (642 bytes)
+CREATE data-binding/src/app/app.module.ts (314 bytes)
+CREATE data-binding/src/app/app.component.html (1141 bytes)
+CREATE data-binding/src/app/app.component.spec.ts (1013 bytes)
+CREATE data-binding/src/app/app.component.ts (216 bytes)
+CREATE data-binding/src/app/app.component.css (0 bytes)
+CREATE data-binding/e2e/protractor.conf.js (752 bytes)
+CREATE data-binding/e2e/tsconfig.e2e.json (213 bytes)
+CREATE data-binding/e2e/src/app.e2e-spec.ts (308 bytes)
+CREATE data-binding/e2e/src/app.po.ts (208 bytes)
+npm WARN deprecated istanbul-lib-hook@1.2.1: 1.2.0 should have been a major version bump
+
+> node-sass@4.9.3 install F:\ANGULAR6-IONIC411-TRAINING------\Lesson3-Data-binding\data-binding\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\GVR MURTY\AppData\Roaming\npm-cache\node-sass\4.9.3\win32-x64-57_binding.node
+
+> node-sass@4.9.3 postinstall F:\ANGULAR6-IONIC411-TRAINING------\Lesson3-Data-binding\data-binding\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at F:\ANGULAR6-IONIC411-TRAINING------\Lesson3-Data-binding\data-binding\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1177 packages in 99.031s
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/browserslist.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/karma.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.app.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.spec.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tslint.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory.
+    Successfully initialized git.
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson3-Data-binding>
+
+==============================================================
+
+cd data-binding
+
+==============================================================
+
+INSTALL CSS BOOTSTRAP:
+=====================
+npm install --save bootstrap@3
+
+F:\ANGULAR4-IONIC3-TRAINING\Day3\data-binding>npm install --save bootstrap
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@3.3.7
+added 114 packages and updated 1 package in 15.534s
+
+F:\ANGULAR4-IONIC3-TRAINING\Day3\data-binding>
+
+In the angular-cli.json file....add the following line in the styles array
+
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+that is ....
+
+ "styles": [
+	    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],
+=============================================================================
+Manually create server component....
+------------------------------------------
+using angular cli create servers component
+------------------------------------------
+ng generate component servers
+ng g c servers	  
+=============================================================================
+
+ng g c test
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson3-Data-binding\data-binding>ng g c test
+CREATE src/app/test/test.component.html (23 bytes)
+CREATE src/app/test/test.component.spec.ts (614 bytes)
+CREATE src/app/test/test.component.ts (261 bytes)
+CREATE src/app/test/test.component.css (0 bytes)
+UPDATE src/app/app.module.ts (762 bytes)
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson3-Data-binding\data-binding>
+=============================================================================

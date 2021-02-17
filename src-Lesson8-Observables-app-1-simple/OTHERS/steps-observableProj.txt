@@ -1,0 +1,52 @@
+ng new observableProj
+
+or 
+
+copy all the files from lesson7
+========================================================================
+
+====================================================================
+cd observableProj
+====================================================================
+ng serve
+====================================================================
+
+====================================================================
+
+==========================================================================
+
+To Install Bootstrap:
+===================
+
+npm install --save bootstrap
+
+F:\ANGULAR4-IONIC3-TRAINING\Day4\basics-directives>npm install --save bootstrap
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@3.3.7
+added 115 packages in 19.73s
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson4-Built-in Directives\basics-directives>
+==========================================================================
+In the angular.json file....add the following line in the styles array
+
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+that is ....
+
+ "styles": [
+	    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],
+==========================================================================
+
+====================================================================
+
+====================================================================
+
+====================================================================
+
+====================================================================
+
+====================================================================

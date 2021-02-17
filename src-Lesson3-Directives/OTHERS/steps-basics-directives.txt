@@ -1,0 +1,94 @@
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson4-Built-in Directives>ng new basics-directives
+installing ng
+  create .editorconfig
+  create README.md
+  create src\app\app.component.css
+  create src\app\app.component.html
+  create src\app\app.component.spec.ts
+  create src\app\app.component.ts
+  create src\app\app.module.ts
+  create src\assets\.gitkeep
+  create src\environments\environment.prod.ts
+  create src\environments\environment.ts
+  create src\favicon.ico
+  create src\index.html
+  create src\main.ts
+  create src\polyfills.ts
+  create src\styles.css
+  create src\test.ts
+  create src\tsconfig.app.json
+  create src\tsconfig.spec.json
+  create src\typings.d.ts
+  create .angular-cli.json
+  create e2e\app.e2e-spec.ts
+  create e2e\app.po.ts
+  create e2e\tsconfig.e2e.json
+  create .gitignore
+  create karma.conf.js
+  create package.json
+  create protractor.conf.js
+  create tsconfig.json
+  create tslint.json
+You can `ng set --global packageManager=yarn`.
+Installing packages for tooling via npm.
+Installed packages for tooling via npm.
+Successfully initialized git.
+Project 'basics-directives' successfully created.
+
+F:\ANGULAR4-IONIC3-TRAINING>
+
+cd basics-directives
+
+==========================================================================
+
+To Install Bootstrap:
+===================
+
+npm install --save bootstrap
+
+F:\ANGULAR4-IONIC3-TRAINING\Day4\basics-directives>npm install --save bootstrap
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@3.3.7
+added 115 packages in 19.73s
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson4-Built-in Directives\basics-directives>
+==========================================================================
+In the angular.json file....add the following line in the styles array
+
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+that is ....
+
+ "styles": [
+	    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],
+==========================================================================
+
+ng serve
+http://localhost:4200
+==========================================================================
+
+==========================================================================
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson4-Built-in Directives\basics-directives
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson4-Built-in Directives\basics-directives>ng g c directivetypes
+installing component
+  create src\app\directivetypes\directivetypes.component.css
+  create src\app\directivetypes\directivetypes.component.html
+  create src\app\directivetypes\directivetypes.component.spec.ts
+  create src\app\directivetypes\directivetypes.component.ts
+  update src\app\app.module.ts
+
+F:\ANGULAR4-IONIC3-TRAINING\Lesson4-Built-in Directives\basics-directives>
+==========================================================================
+
+==========================================================================
+ng generate directive better-highlight
+==========================================================================
+
+==========================================================================

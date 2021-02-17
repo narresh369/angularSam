@@ -1,0 +1,252 @@
+https://github.com/CodAffection/Angular-5-CRUD-With-Firebase
+Angular-5-CRUD-With-Firebase-master.zip
+===========================================================
+https://www.youtube.com/watch?feature=player_embedded&v=GEdxydnpNFs
+https://www.youtube.com/watch?feature=player_embedded&v=GEdxydnpNFs
+===========================================================
+https://angular-ng-http-b6f44.firebaseio.com/
+===========================================================
+abhhay.uzwall@gmail.com
+Narresh12578
+----------------------------------------------------------------
+<script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCVNh5d2eqcE1Sha6b926XQAc-JbZfNH0w",
+    authDomain: "angular-ng-http-b6f44.firebaseapp.com",
+    databaseURL: "https://angular-ng-http-b6f44.firebaseio.com",
+    projectId: "angular-ng-http-b6f44",
+    storageBucket: "angular-ng-http-b6f44.appspot.com",
+    messagingSenderId: "106798384575"
+  };
+  firebase.initializeApp(config);
+</script>
+===========================================================
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+===========================================================
+{
+  "rules": {
+    ".read": "true",
+    ".write": "true"
+  }
+}
+===========================================================
+ng generate component employees
+ng g c employees
+===========================================================
+inside employees folder create the following component...
+
+ng g c employee
+ng g c employee-list
+===========================================================
+in employees folder create a folder called shared folder...
+in the shared folder........
+create a service
+ng generate service employee
+ng g s employee
+-------------------------
+create a class
+ng g class employee --type=model
+===========================================================
+
+===========================================================
+
+===========================================================
+
+===========================================================
+
+===========================================================
+
+===========================================================
+
+===========================================================
+
+===========================================================
+
+
+
+F:\ANGULAR6-IONIC411-TRAINING------>ng new angular5crud
+CREATE angular5crud/angular.json (3602 bytes)
+CREATE angular5crud/package.json (1317 bytes)
+CREATE angular5crud/README.md (1029 bytes)
+CREATE angular5crud/tsconfig.json (408 bytes)
+CREATE angular5crud/tslint.json (2805 bytes)
+CREATE angular5crud/.editorconfig (245 bytes)
+CREATE angular5crud/.gitignore (503 bytes)
+CREATE angular5crud/src/favicon.ico (5430 bytes)
+CREATE angular5crud/src/index.html (299 bytes)
+CREATE angular5crud/src/main.ts (370 bytes)
+CREATE angular5crud/src/polyfills.ts (3194 bytes)
+CREATE angular5crud/src/test.ts (642 bytes)
+CREATE angular5crud/src/styles.css (80 bytes)
+CREATE angular5crud/src/browserslist (388 bytes)
+CREATE angular5crud/src/karma.conf.js (964 bytes)
+CREATE angular5crud/src/tsconfig.app.json (166 bytes)
+CREATE angular5crud/src/tsconfig.spec.json (256 bytes)
+CREATE angular5crud/src/tslint.json (314 bytes)
+CREATE angular5crud/src/assets/.gitkeep (0 bytes)
+CREATE angular5crud/src/environments/environment.prod.ts (51 bytes)
+CREATE angular5crud/src/environments/environment.ts (642 bytes)
+CREATE angular5crud/src/app/app.module.ts (314 bytes)
+CREATE angular5crud/src/app/app.component.html (1141 bytes)
+CREATE angular5crud/src/app/app.component.spec.ts (1013 bytes)
+CREATE angular5crud/src/app/app.component.ts (216 bytes)
+CREATE angular5crud/src/app/app.component.css (0 bytes)
+CREATE angular5crud/e2e/protractor.conf.js (752 bytes)
+CREATE angular5crud/e2e/tsconfig.e2e.json (213 bytes)
+CREATE angular5crud/e2e/src/app.e2e-spec.ts (308 bytes)
+CREATE angular5crud/e2e/src/app.po.ts (208 bytes)
+npm WARN deprecated istanbul-lib-hook@1.2.1: 1.2.0 should have been a major version bump
+
+> node-sass@4.9.3 install F:\ANGULAR6-IONIC411-TRAINING------\angular5crud\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\GVR MURTY\AppData\Roaming\npm-cache\node-sass\4.9.3\win32-x64-57_binding.node
+
+> node-sass@4.9.3 postinstall F:\ANGULAR6-IONIC411-TRAINING------\angular5crud\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at F:\ANGULAR6-IONIC411-TRAINING------\angular5crud\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1177 packages in 450.001s
+
+
+   ?-------------------------------------?
+   ¦                                     ¦
+   ¦   Update available 5.6.0 ? 6.4.1    ¦
+   ¦     Run npm i -g npm to update      ¦
+   ¦                                     ¦
+   ?-------------------------------------?
+
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/browserslist.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/karma.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.app.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.spec.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tslint.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory.
+    Successfully initialized git.
+
+F:\ANGULAR6-IONIC411-TRAINING------>
+========================================================================
+cd angular5crud
+========================================================================
+ng serve
+========================================================================
+npm install -save angularfire2
+npm install --save ngx-toastr
+npm install -save firebase
+========================================================================
+
+========================================================================
+
+
+F:\ANGULAR6-IONIC411-TRAINING------\angular5crud>npm install -save angularfire2
+npm WARN angularfire2@5.0.0-rc.12 requires a peer of firebase@^5.0.3 but none was installed.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ angularfire2@5.0.0-rc.12
+added 67 packages and updated 1 package in 14.343s
+
+F:\ANGULAR6-IONIC411-TRAINING------\angular5crud>
+========================================================================
+
+F:\ANGULAR6-IONIC411-TRAINING------\angular5crud>npm install --save ngx-toastr
+npm WARN angularfire2@5.0.0-rc.12 requires a peer of firebase@^5.0.3 but none was installed.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ ngx-toastr@9.0.2
+added 68 packages in 16.451s
+
+F:\ANGULAR6-IONIC411-TRAINING------\angular5crud>
+=========================================================================
+
+F:\ANGULAR6-IONIC411-TRAINING------\angular5crud>npm install -save firebase
+
+> grpc@1.13.1 install F:\ANGULAR6-IONIC411-TRAINING------\angular5crud\node_modules\grpc
+> node-pre-gyp install --fallback-to-build --library=static_library
+
+node-pre-gyp WARN Using request for node-pre-gyp https download
+[grpc] Success: "F:\ANGULAR6-IONIC411-TRAINING------\angular5crud\node_modules\grpc\src\node\extension_binary\node-v57-win32-x64-unknown\grpc_node.node" is installed via remote
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ firebase@5.4.2
+added 171 packages in 47.181s
+
+F:\ANGULAR6-IONIC411-TRAINING------\angular5crud>
+=========================================================================
+
+=========================================================================
+
+=========================================================================
+
+=========================================================================
+=========================================================================
+
+=========================================================================
+
+=========================================================================
+
+=========================================================================

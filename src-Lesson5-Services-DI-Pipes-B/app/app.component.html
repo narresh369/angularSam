@@ -1,0 +1,180 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h2>
+    Welcome to {{title}}!
+  </h2>
+
+  <p style="font-size:45px;color:red">{{ testfunctionVal }}</p>
+
+  <app-testcomponent></app-testcomponent>
+
+
+
+  <hr style="border-top:navy 1px solid;width:800px">
+
+  <!-- =============================== LOCAL SERVICES EXAMPLE ======================== -->
+<!-- </div>
+<div *ngFor="let hero of heros">
+  {{ hero.name }}
+</div> -->
+<!-- =============================== LOCAL SERVICES EXAMPLE ======================== -->
+
+
+<!-- =============================== REMOTE SERVICES EXAMPLE ======================== -->
+
+<!-- <div *ngFor="let trxn of trxns">
+  {{ trxn.trxnid }} - {{ trxn.stockid }} - {{ trxn.itemname }} - {{ trxn.unitprice }} - {{ trxn.qty }} - {{ trxn.amount }} - {{ trxn.grandTotal }} - {{ trxn.date_time }}
+</div> -->
+
+<!-- <table class="table">
+  <thead>
+    <tr>
+      <th>Trxn Id</th>
+      <th>Stock Id</th>
+      <th>Item Name</th>
+      <th>Unit Price</th>
+      <th>Qty</th>
+      <th>Amount</th>
+      <th>G.Total</th>
+      <th>Date Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trxn of trxns">
+      <th>{{ trxn.trxnid }}</th>
+      <th>{{ trxn.stockid }}</th>
+      <th>{{ trxn.itemname }}</th>
+      <th>{{ trxn.unitprice }}</th>
+      <th>{{ trxn.qty }}</th>
+      <th>{{ trxn.amount }}</th>
+      <th>{{ trxn.grandTotal }}</th>
+      <th>{{ trxn.date_time }}</th>
+    </tr>    
+  </tbody>
+</table> -->
+
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- <div *ngFor="let trxn of trxns">
+  {{ trxn.userId }} - {{ trxn.id }} - {{ trxn.title }} - {{ trxn.completed }}
+</div> -->
+
+<!--  <table class="table">
+  <thead>
+    <tr>
+      <th>User Id</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Status</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trxn of trxns">
+      <td>{{ trxn.userId }}</td>
+      <td>{{ trxn.id }}</td>
+      <td>{{ trxn.title }}</td>
+      <td>{{ trxn.completed }}</td>      
+    </tr>    
+  </tbody>
+</table>
+ -->
+
+
+
+
+<!-- <table class="darkTable"> -->
+    <!-- <table class="cinereousTable">
+   <thead>
+    <tr>
+      <th>User Id</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Status</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trxn of trxns">
+      <th>{{ trxn.userId }}</th>
+      <th>{{ trxn.id }}</th>
+      <th>{{ trxn.title }}</th>
+      <th>{{ trxn.completed }}</th>      
+    </tr>    
+  </tbody>
+</table>  -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+ 
+<!-- <table class="darkTable">
+ -->    <!-- <table class="cinereousTable"> -->
+  <!-- <thead>
+    <tr>
+      <th>Trxn Id</th>
+      <th>Stock Id</th>
+      <th>Item Name</th>
+      <th>Unit Price</th>
+      <th>Qty</th>
+      <th>Amount</th>
+      <th>G.Total</th>
+      <th>Date Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trxn of trxns">
+      <th>{{ trxn.trxnid }}</th>
+      <th>{{ trxn.stockid }}</th>
+      <th>{{ trxn.itemname }}</th>
+      <th>{{ trxn.unitprice }}</th>
+      <th>{{ trxn.qty }}</th>
+      <th>{{ trxn.amount }}</th>
+      <th>{{ trxn.grandTotal }}</th>
+      <th>{{ trxn.date_time }}</th>
+    </tr>    
+  </tbody>
+</table> -->
+<!-- =============================== REMOTE SERVICES EXAMPLE ======================== -->
+
+  <!-- ============================== PIPES EXAMPLE ================================ -->
+
+  <!-- <hr style="border-top:navy 1px solid;width:500px"> -->
+  <!-- <p style="color:blue;font-size:30px">Pipes Example</p> -->
+  <!-- <p style="color:green;font-size:25px">Multiplier: {{2 | multiplier: 10}}</p> -->
+
+  <!-- <hr style="border-top:navy 1px solid;width:500px"> -->
+
+
+{{ birthday }}
+<br>
+{{ birthday | date:'fullDate' }} 
+<br>
+{{ birthday | date:'short' }}
+<br>
+{{ birthday | date:'longDate' }}
+<br>
+{{ birthday | date:'mediumDate' }}
+<br>
+{{ birthday | date:'shortTime' }}
+
+
+  <!-- ============================== PIPES EXAMPLE ================================ -->
+
+          <!--  WITHOUT PIPE -->
+  <!-- <div style="width:400px;text-align:center;margin:0 auto;" *ngFor="let team of teams">    
+           <div wrap *ngFor="let player of players" class="roww">     
+          <div style="color:navy;font-weight:bold">{{player.itemname}} - {{ player.unitprice }}</div>
+        </div>
+      </div> -->
+              <!--  WITHOUT PIPE -->
+
+
+              <!--  WITH PIPE -->
+              <!-- <div style="width:400px;text-align:center;margin:0 auto;" *ngFor="let team of teams">
+                    <div 
+                      style="font-size:25px;color:magenta;text-align:center;
+                      background: -webkit-linear-gradient(left, #A7DBC0, #F88CDD);" 
+                      class="roww">{{team.name}}
+                    </div>
+                                          
+                          <div wrap *ngFor="let player of players | filterxxxx:{teamId:team.id}" class="roww">  
+                      <div style="color:navy;font-weight:bold">{{player.itemname}} - {{ player.unitprice }}</div>
+                    </div>
+                    </div> -->
+                    <!--  WITH PIPE -->

@@ -1,0 +1,26 @@
+<p style="font-size:25px;color:navy">
+  You have successfully entered the App.
+</p>
+  <br>
+  <button class="btn btn-info" (click)="storeRecipes()">Store Recipies</button>&nbsp;
+  <button class="btn btn-info" (click)="getRecipes()">Get Recipies</button>
+  
+  <hr>
+
+<div *ngFor="let recipie of recipes">
+    <img
+    [src]="recipie.imagePath"
+    alt="{{ recipie.name }}"
+    class="img-responsive"
+    style="max-height: 50px;">
+
+  {{recipie.name}} <br>
+  {{recipie.description}} <br>
+  {{recipie.imagePath}}<br>
+  <hr>
+  <div *ngFor="let ingrds of recipie.ingredients">
+    {{ingrds.name}}<br>
+    {{ingrds.amount}}<br>
+    </div>
+    <hr style="border:1px solid navy">
+  </div>

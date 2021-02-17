@@ -1,0 +1,40 @@
+<h2 style="color:red">
+    List of Inventory
+  </h2>
+
+<table class="darkTable">
+  <thead>
+    <tr>
+      <!-- <th>Trxn Id</th>
+      <th>Stock Id</th>
+      <th>Item Name</th>
+      <th>Unit Price</th>
+      <th>Qty</th>
+      <th>Amount</th>
+      <th>G.Total</th>
+      <th>Date Time</th> -->
+
+      <th>User Id</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Status</th>      
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trxn of trxns">
+      <!-- <th>{{ trxn.trxnid}}</th>
+      <th>{{ trxn.stockid }}</th>
+      <th>{{ trxn.itemname  | uppercase}}</th>
+      <th>{{ trxn.unitprice }}</th>
+      <th>{{ trxn.qty }}</th>
+      <th>{{ trxn.amount }}</th>
+      <th>{{ trxn.grandTotal }}</th>
+      <th>{{ trxn.date_time }}</th> -->
+
+      <th>{{ trxn.userId }}</th>
+      <th>{{ trxn.id }}</th>
+      <th>{{ trxn.title }}</th>
+      <th>{{ trxn.completed }}</th>      
+    </tr>    
+  </tbody>
+</table>

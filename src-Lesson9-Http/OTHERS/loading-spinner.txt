@@ -1,0 +1,39 @@
+1.CREATE A LOADING SPINNER COMPONENT
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/Angular9-training/angular9app (master)
+$ ng g c ui/loading-spinner
+CREATE src/app/ui/loading-spinner/loading-spinner.component.html (30 bytes)
+CREATE src/app/ui/loading-spinner/loading-spinner.component.spec.ts (685 bytes)
+CREATE src/app/ui/loading-spinner/loading-spinner.component.ts (310 bytes)
+CREATE src/app/ui/loading-spinner/loading-spinner.component.css (0 bytes)
+UPDATE src/app/app.module.ts (546 bytes)
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/Angular9-training/angular9app (master)
+$
+
+2. FROM THE BELOW URL DOWNLOAD THE spinkit.css file and place into a folder src/assets/css
+https://github.com/tobiasahlin/SpinKit
+
+3. in the index.html file...specify the spinkit.css file so that the classes are available for the entire application 
+<link href="assets/css/spinkit.css" rel="stylesheet">
+
+4.in the loading-spinner.component.html
+
+<div class="sk-plane"></div>
+
+choose the div type of spinner you want to display as a spinner...
+
+5.In app.component.html file...specify the below with *ngIf condition...to display the loading spinner when fetching data from database server
+<app-loading-spinner *ngIf="isFetching && !error"></app-loading-spinner>
+
+
+
+
+
+
+
+
+
+
+
+

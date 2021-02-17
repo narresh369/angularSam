@@ -1,0 +1,49 @@
+https://animate.style/
+1.Create the css folder and place the files in "D:\Angular9-training\angular9app\src\assets\css" folder...
+	animate.css
+	stagger.css
+	testx.css
+2. In index.html file add the following entries...
+
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <link href="assets/css/stagger.css" rel="stylesheet">
+  <link href="assets/css/testx.css" rel="stylesheet">
+
+3.Usage:
+
+<h1 class="animated infinite pulse">My Animations</h1>
+
+<h1 class="animated pulse">My Animations</h1>
+
+<img src="assets/img/img1.jpg" style="width:255px;height:200px" class="animated infinite flipInY">
+
+<div class="animated flipInX _{{i}}"  *ngFor="let item of items;let i = index">
+      {{item.name}}
+      </div>
+	  
+	 <button class="btn btn-primary buttonx" (click)="test()">Click Me!</button>
+	 
+	 
+naresh@DESKTOP-6CLSK89 MINGW64 /d/Angular9-training/angular9app (master)
+$ ng g c firstpg
+CREATE src/app/firstpg/firstpg.component.html (22 bytes)
+CREATE src/app/firstpg/firstpg.component.spec.ts (635 bytes)
+CREATE src/app/firstpg/firstpg.component.ts (279 bytes)
+CREATE src/app/firstpg/firstpg.component.css (0 bytes)
+UPDATE src/app/app.module.ts (651 bytes)
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/Angular9-training/angular9app (master)
+$
+
+
+
+
+
+
+
+
+
+
+
+
+

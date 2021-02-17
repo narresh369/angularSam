@@ -1,0 +1,18 @@
+<h6 class="text-center bg">Employee List</h6><br/>
+<table class="table table-sm table-hover">
+  <!-- <tr *ngFor="let employee of employeeList"> -->
+     <tr> <td style="font-weight: bold;">Search:</td><td><input type="text" [(ngModel)]="filteredStatus"></td></tr>
+          <!-- <tr *ngFor="let employee of employeeList | filter:filteredStatus:'name'"> -->
+            <tr *ngFor="let employee of employeeList | filter:filteredStatus">
+      <td class="name">{{employee.name}}</td>
+      <td class="position">{{employee.position}}</td>
+      <td>
+        <a class="btn" (click)="onEdit(employee)">
+          <i style="color:navy;font-size: 25px" class="fa fa-pencil-square-o"></i>
+        </a>
+        <a class="btn" (click)="onDelete(employee.$key)">
+          <i style="color:red;font-size: 25px" class="fa fa-trash-o"></i>
+        </a>
+      </td>
+  </tr>
+</table>

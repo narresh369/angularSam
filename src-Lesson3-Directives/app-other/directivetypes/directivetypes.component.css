@@ -1,0 +1,21 @@
+
+.style1 {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.style2 {
+    color: red;
+    text-align: center;
+}
+
+/* ngSwitch */
+.tabs-selection {
+    background-color: #ddd;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+  }

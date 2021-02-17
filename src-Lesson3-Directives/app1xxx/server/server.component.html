@@ -1,0 +1,10 @@
+<!-- STRING INTERPOLATION EXAMPLE -->
+<!-- <p>{{ 'Server' }} with ID {{ serverId }} is {{ getServerStatus() }}</p> -->
+
+<!-- Styling Elements Dynamically with ngStyle -->
+<!-- <p [ngStyle]="{'background-color':getColor()}">{{ 'Server' }} with ID {{ serverId }} is {{ getServerStatus() }}</p> -->
+<!-- <p [ngStyle]="{backgroundColor:getColor()}">{{ 'Server' }} with ID {{ serverId }} is {{ getServerStatus() }}</p> -->
+
+
+<!-- Applying CSS Classes Dynamically with ngClass -->
+<p [ngStyle]="{backgroundColor:getColor()}" [ngClass]="{onlinex: serverStatus === 'online'}">{{ 'Server' }} with ID {{ serverId }} is {{ getServerStatus() }}</p>

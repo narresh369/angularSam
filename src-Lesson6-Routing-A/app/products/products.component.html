@@ -1,0 +1,46 @@
+<h2 style="color:green">
+  List of Brokers
+</h2>
+
+<!-- <ion-list class="animated zoomInUp _{{i}}" *ngFor="let broker of brokers;let i = index">
+  <button ion-item (click)="openBrokerDetail(broker)">
+      <ion-avatar item-left>
+          <img src="{{broker.picture}}"/>
+      </ion-avatar>
+          <h2>{{broker.name}}</h2>
+          <p>{{broker.title}}</p>
+  </button>
+</ion-list> -->
+<!-- 
+<ul class="list-group">
+  <li *ngFor="let broker of brokers">
+    {{broker.name}}
+  <img style="height:95px;text-align:left" src="{{broker.picture}}" class="rounded" alt="{{broker.name}}">
+  </li>
+
+</ul> -->
+
+<div class="container">
+    <div class="row" *ngFor="let broker of brokers">
+        <div class="col-xs-4">
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img style="height:95px;text-align:left" class="img-circle" src="{{broker.picture}}" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">{{broker.name}}</h4>
+                <p style="color:red">Id: {{broker.id}}</p>
+                <p>{{broker.title}}</p>
+                <p>{{broker.phone}}</p>
+                <p>{{broker.mobilePhone}}</p>
+                <p>{{broker.email}}</p>
+              </div>
+            </div>
+            <hr>
+        </div>
+       
+  
+    </div>
+</div>

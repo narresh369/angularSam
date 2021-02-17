@@ -1,0 +1,14 @@
+/*Empty*/
+.bg{
+    font-size: 25px;
+    color:navy;
+    font-weight: bold;
+}
+.name{
+    font-weight: bold;
+    color:blue;
+}
+.position{
+    font-style: initial;
+    color:brown;
+}

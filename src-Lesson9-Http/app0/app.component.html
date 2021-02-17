@@ -1,0 +1,32 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <hr style="border:1px solid navy">
+  <span style="font-size: 20px;color:red">firebase.google.com</span><br>
+  <span style="font-size: 20px;color:orange">abhhay.uzwall@gmail.com</span><br>
+    <span style="font-size: 20px;color:green">YOURPASSWORD</span><br>
+    <span style="font-size: 20px;color:purple">realtime database:posts</span><br>
+    <span style="font-size: 20px;color:brown">'https://angular-ng-http-b6f44.firebaseio.com/data.json'</span><br>
+    <hr style="border:1px solid navy">
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <h1>{{ appName | async }}</h1>
+      <input type="text" #serverName>&nbsp;
+      <button class="btn btn-primary" (click)="onAddServer(serverName.value)">Add Server</button>
+      <br><br>
+      <button class="btn btn-primary" (click)="onSave()">Save Servers</button>&nbsp;
+      <button class="btn btn-primary" (click)="onGet()">Get Servers</button>
+      <hr>
+      <ul class="list-group" *ngFor="let server of servers">
+        <li class="list-group-item">{{ server.name }} (ID: {{ server.id }})
+          <br>
+          Capacity:{{server.capacity}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-parent',
+  templateUrl: './parent.component.html',
+  styleUrls: ['./parent.component.css']
+})
+export class ParentComponent implements OnInit {
+
+  /* DATA COMMUNICATION FROM PARENT TO CHILD */
+
+  /* 1111111111111111 FOR INPUT DATA COMMUNICATION BETWEEN PARENT AND CHILD COMPONENTS  1111111111111111  */
+  //public books: {};
+  /* 1111111111111111 FOR INPUT DATA COMMUNICATION BETWEEN PARENT AND CHILD COMPONENTS  1111111111111111  */
+  
+  constructor() {  
+
+    /* 1111111111111111 FOR INPUT DATA COMMUNICATION BETWEEN PARENT AND CHILD COMPONENTS  1111111111111111  */
+    /* this.books = {
+    "booksReviews": 123 
+    } */
+  /* 1111111111111111 FOR INPUT DATA COMMUNICATION BETWEEN PARENT AND CHILD COMPONENTS  1111111111111111  */
+   }
+
+/* DATA COMMUNICATION FROM PARENT TO CHILD */
+
+
+
+
+
+
+/* DATA COMMUNICATION FROM CHILD TO PARENT */
+
+   /* 222222222222222222 FOR OUTPUT DATA COMMUNICATION BETWEEN CHILD TO PARENT COMPONENTS  USING EVENT EMITTER  22222222222222 */
+   message = '';
+   messages = [];
+   onNotifyClicked(message:string):void{    
+    //11111111111111111111111111111111 
+    //this.message = message;
+
+    //222222222222222222222222222222222222
+    this.messages = JSON.parse(message);
+
+     console.log(this.messages);
+   }
+/* 222222222222222222 FOR OUTPUT DATA COMMUNICATION BETWEEN CHILD TO PARENT COMPONENTS  USING EVENT EMITTER  22222222222222 */
+
+/* DATA COMMUNICATION FROM CHILD TO PARENT */
+
+
+  ngOnInit() {   
+  }
+
+}

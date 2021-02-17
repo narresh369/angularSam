@@ -1,0 +1,38 @@
+ng new inputOutputEEProj
+===========================
+
+==========================
+ng g c parent
+ng g c child
+==========================
+
+F:\ANGULAR4-IONIC3-TRAINING\Lesson11-Input-Output-EventEmitters\inputOutputEEProj>ng g c parent
+installing component
+  create src\app\parent\parent.component.css
+  create src\app\parent\parent.component.html
+  create src\app\parent\parent.component.spec.ts
+  create src\app\parent\parent.component.ts
+  update src\app\app.module.ts
+
+F:\ANGULAR4-IONIC3-TRAINING\Lesson11-Input-Output-EventEmitters\inputOutputEEProj>ng g c child
+installing component
+  create src\app\child\child.component.css
+  create src\app\child\child.component.html
+  create src\app\child\child.component.spec.ts
+  create src\app\child\child.component.ts
+  update src\app\app.module.ts
+
+F:\ANGULAR4-IONIC3-TRAINING\Lesson11-Input-Output-EventEmitters\inputOutputEEProj>
+
+==========================
+ng serve
+
+==========================
+
+==========================
+
+==========================
+
+==========================
+
+==========================

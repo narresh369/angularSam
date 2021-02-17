@@ -1,0 +1,131 @@
+ng new testingproj
+=====================================================================
+
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing>cd testingproj
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing\testingProj>npm i
+npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+
+> node-sass@4.9.3 install F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing\testingProj\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\GVR MURTY\AppData\Roaming\npm-cache\node-sass\4.9.3\win32-x64-57_binding.node
+
+> node-sass@4.9.3 postinstall F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing\testingProj\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing\testingProj\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Testing binary
+Binary is fine
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1157 packages in 137.56s
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing\testingProj>ng serve
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+Date: 2018-12-09T04:45:52.776Z
+Hash: 521df6c8786bd46839ab
+Time: 8597ms
+chunk {main} main.js, main.js.map (main) 10.9 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 223 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 16.2 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 3.31 MB [initial] [rendered]
+i ?wdm?: Compiled successfully.
+Terminate batch job (Y/N)? y
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing\testingProj>
+===========================================================================================
+
+
+ng test
+
+===========================================================================================
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing\testingProj>ng test
+ 10% building modules 2/2 modules 0 active09 12 2018 10:17:49.053:WARN [karma]: No captured browser, open http://localhost:9876/
+09 12 2018 10:17:49.325:INFO [karma]: Karma v3.0.0 server started at http://0.0.0.0:9876/
+09 12 2018 10:17:49.328:INFO [launcher]: Launching browser Chrome with unlimited concurrency
+09 12 2018 10:17:49.342:INFO [launcher]: Starting browser Chrome
+09 12 2018 10:17:54.424:WARN [karma]: No captured browser, open http://localhost:9876/
+09 12 2018 10:17:54.805:INFO [Chrome 70.0.3538 (Windows 7 0.0.0)]: Connected on socket -PFKgyzEXqzXOZ_aAAAA with id 5396135
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 11 of 11 SUCCESS (0.306 secs / 0.294 secs)
+TOTAL: 11 SUCCESS
+TOTAL: 11 SUCCESS
+Chrome 70.0.3538 (Windows 7 0.0.0) App: CompleteGuideFinalWebpack should have as title 'app works!' FAILED
+        Expected 'ap works!' to equal 'app works!'.
+            at UserContext.<anonymous> (http://localhost:9876/src/app/app.component.spec.ts?:24:23)
+            at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/node_modules/zone.js/dist/zone.js?:388:1)
+            at AsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.AsyncTestZoneSpec.onInvoke (http://localhost:9876/node_modules/zone.js/dist/zone-testing.js?:713:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/node_modules/zone.js/dist/zone-testing.js?:285:1)
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 2 of 11 (1 FAILED) (0 secs / 0.255 secs)
+Chrome 70.0.3538 (Windows 7 0.0.0) App: CompleteGuideFinalWebpack should have as title 'app works!' FAILED
+        Expected 'ap works!' to equal 'app works!'.
+            at UserContext.<anonymous> (http://localhost:9876/src/app/app.component.spec.ts?:24:23)
+            at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/node_modules/zone.js/dist/zone.js?:388:1)
+            at AsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.AsyncTestZoneSpec.onInvoke (http://localhost:9876/node_modules/zone.js/dist/zone-testing.js?:713:1)
+Chrome 70.0.3538 (Windows 7 0.0.0) App: CompleteGuideFinalWebpack should render title in a h1 tag FAILED
+        Expected ' ap works!
+        ' to contain 'app works!'.
+            at UserContext.<anonymous> (http://localhost:9876/src/app/app.component.spec.ts?:31:54)
+            at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/node_modules/zone.js/dist/zone.js?:388:1)
+            at AsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.AsyncTestZoneSpec.onInvoke (http://localhost:9876/node_modules/zone.js/dist/zone-testing.js?:713:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/node_modules/zone.js/dist/zone-testing.js?:285:1)
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 3 of 11 (2 FAILED) (0 secs / 0.272 secs)
+Chrome 70.0.3538 (Windows 7 0.0.0) App: CompleteGuideFinalWebpack should render title in a h1 tag FAILED
+        Expected ' ap works!
+        ' to contain 'app works!'.
+            at UserContext.<anonymous> (http://localhost:9876/src/app/app.component.spec.ts?:31:54)
+            at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/node_modules/zone.js/dist/zone.js?:388:1)
+            at AsyncTestZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.AsyncTestZoneSpec.onInvoke (http://localhost:9876/node_modules/zone.js/dist/zone-testing.js?:713:1)
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 11 of 11 (2 FAILED) (0.428 secs / 0.409 secs)
+TOTAL: 2 FAILED, 9 SUCCESS
+TOTAL: 2 FAILED, 9 SUCCESS
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 11 of 11 SUCCESS (0.199 secs / 0.19 secs)
+TOTAL: 11 SUCCESS
+TOTAL: 11 SUCCESS
+Chrome 70.0.3538 (Windows 7 0.0.0) Pipe: ReversePipe should reverse the inputs FAILED
+        Expected 'olleh' to equal 'ollehh'.
+            at UserContext.<anonymous> (http://localhost:9876/src/app/shared/reverse.pipe.spec.ts?:7:44)
+            at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/node_modules/zone.js/dist/zone.js?:388:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/node_modules/zone.js/dist/zone-testing.js?:288:1)
+            at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/node_modules/zone.js/dist/zone.js?:387:1)
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 4 of 11 (1 FAILED) (0 secs / 0.153 secs)
+Chrome 70.0.3538 (Windows 7 0.0.0) Pipe: ReversePipe should reverse the inputs FAILED
+        Expected 'olleh' to equal 'ollehh'.
+            at UserContext.<anonymous> (http://localhost:9876/src/app/shared/reverse.pipe.spec.ts?:7:44)
+            at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (http://localhost:9876/node_modules/zone.js/dist/zone.js?:388:1)
+            at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/node_modules/zone.js/dist/zone-testing.js?:288:1)
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 11 of 11 (1 FAILED) (0.299 secs / 0.287 secs)
+TOTAL: 1 FAILED, 10 SUCCESS
+TOTAL: 1 FAILED, 10 SUCCESS
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 11 of 11 SUCCESS (0.201 secs / 0.19 secs)
+TOTAL: 11 SUCCESS
+TOTAL: 11 SUCCESS
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 11 of 11 SUCCESS (0.19 secs / 0.183 secs)
+TOTAL: 11 SUCCESS
+TOTAL: 11 SUCCESS
+Chrome 70.0.3538 (Windows 7 0.0.0) ERROR
+  Disconnectedclient disconnected from CONNECTED state
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 11 of 11 SUCCESS (0.19 secs / 0.183 secs)
+Chrome 70.0.3538 (Windows 7 0.0.0) ERROR
+  Disconnectedclient disconnected from CONNECTED state
+09 12 2018 10:23:55.450:ERROR [launcher]: Chrome crashed.
+        [8460:6312:1209/101749.421:ERROR:install_util.cc(691)] Failed to read HKLM\SOFTWARE\Policies\Google\Chrome\MachineLevelUserCloudPolicyEnrollmentToken: The system cannot find the file specified. (0x2)
+
+09 12 2018 10:23:55.450:ERROR [launcher]: Chrome stdout:
+09 12 2018 10:23:55.450:ERROR [launcher]: Chrome stderr: [8460:6312:1209/101749.421:ERROR:install_util.cc(691)] Failed to read HKLM\SOFTWARE\Policies\Google\Chrome\MachineLevelUserCloudPolicyEnrollmentToken: The system cannot find the file specified. (0x2)
+
+09 12 2018 10:23:55.576:INFO [launcher]: Trying to start Chrome again (1/2).
+09 12 2018 10:23:57.853:INFO [Chrome 70.0.3538 (Windows 7 0.0.0)]: Connected on socket WiQwHXbvHHxLKF_zAAAB with id 5396135
+Chrome 70.0.3538 (Windows 7 0.0.0): Executed 11 of 11 SUCCESS (0.204 secs / 0.279 secs)
+TOTAL: 11 SUCCESS
+TOTAL: 11 SUCCESS
+Terminate batch job (Y/N)? y
+
+F:\ANGULAR6-IONIC411-TRAINING------\Lesson12-Testing\testingProj>
+========================================================================================================================

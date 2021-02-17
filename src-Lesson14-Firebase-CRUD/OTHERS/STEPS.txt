@@ -1,0 +1,172 @@
+========================================================================
+npm install -save angularfire2
+npm install --save ngx-toastr
+npm install -save firebase
+========================================================================
+
+
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$ npm install -save angularfire2
+npm WARN deprecated angularfire2@5.2.1: AngularFire has moved, we're now @angular/fire
+npm WARN rollback Rolling back node-pre-gyp@0.12.0 failed (this is probably harmless): EPERM: operation not permitted, lstat 'D:\angular-8\first-app\node_modules\@angular\compiler-cli\node_modules\fsevents\node_modules'
+npm WARN @angular/fire@5.2.1 requires a peer of firebase@>= 5.5.7 <7 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.0 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.0: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ angularfire2@5.2.1
+added 2 packages from 1 contributor and audited 19127 packages in 50.101s
+found 6 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$ npm install --save ngx-toastr
+npm WARN rollback Rolling back node-pre-gyp@0.12.0 failed (this is probably harmless): EPERM: operation not permitted, scandir 'D:\angular-8\first-app\node_modules\karma\node_modules\fsevents\node_modules'
+npm WARN @angular/fire@5.2.1 requires a peer of firebase@>= 5.5.7 <7 but none is installed. You must install peer dependencies yourself.
+npm WARN ngx-toastr@11.1.2 requires a peer of rxjs@^6.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.0 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.0: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ ngx-toastr@11.1.2
+added 1 package and audited 19129 packages in 19.379s
+found 6 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$ npm install -save firebase
+
+> grpc@1.24.1 install D:\angular-8\first-app\node_modules\grpc
+> node-pre-gyp install --fallback-to-build --library=static_library
+
+node-pre-gyp WARN Using request for node-pre-gyp https download
+[grpc] Success: "D:\angular-8\first-app\node_modules\grpc\src\node\extension_binary\node-v64-win32-x64-unknown\grpc_node.node" is installed via remote
+
+> core-js@3.3.3 postinstall D:\angular-8\first-app\node_modules\@firebase\polyfill\node_modules\core-js
+> node postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+npm WARN @angular/fire@5.2.1 requires a peer of firebase@>= 5.5.7 <7 but none is installed. You must install peer dependencies yourself.
+npm WARN ngx-toastr@11.1.2 requires a peer of rxjs@^6.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.0 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.0: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ firebase@7.2.2
+added 1 package from 1 contributor, updated 19 packages and audited 19132 packages in 75.866s
+found 6 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$
+==================================================================================
+npm install @angular/animations --save
+----------------------------------------------------------------------------------
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$ npm install @angular/animations --save
+
+npm WARN @angular/fire@5.2.1 requires a peer of firebase@>= 5.5.7 <7 but none is installed. You must install peer dependencies yourself.
+npm WARN ngx-toastr@11.1.2 requires a peer of rxjs@^6.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/animations@8.2.12 requires a peer of @angular/core@8.2.12 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\watchpack\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\karma\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.0 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.0: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@angular\compiler-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/animations@8.2.12
+updated 1 package and audited 19132 packages in 19.545s
+found 6 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$
+
+----------------------------------------------------------------------------------
+
+==================================================================================
+IN ANGULAR.JSON FILE ADD THE FOLLOWING IN STYLES...
+
+ "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+			  "node_modules/ngx-toastr/toastr.css" ,
+              "src/styles.css"
+            ],
+			
+==================================================================================
+IN INDEX.HTML ADD THE FOLLOWING...
+
+<head>
+  <meta charset="utf-8">
+  <title>FirstApp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+==================================================================================
+IN a.pp.module.ts file INCLUDE THE FOLLOWING....
+
+BrowserAnimationsModule
+==================================================================================
+https://www.npmjs.com/package/ngx-toastr
+https://www.npmjs.com/package/ngx-toastr
+==================================================================================
+
+==================================================================================
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$ ng g p filter
+CREATE src/app/filter.pipe.spec.ts (187 bytes)
+CREATE src/app/filter.pipe.ts (205 bytes)
+UPDATE src/app/app.module.ts (1202 bytes)
+
+naresh@DESKTOP-6CLSK89 MINGW64 /d/angular-8/first-app (master)
+$
+
+
+==================================================================================
+
+==================================================================================
+
+==================================================================================

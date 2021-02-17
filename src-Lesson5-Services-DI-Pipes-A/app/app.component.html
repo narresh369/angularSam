@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <input type="text" [(ngModel)]="filteredStatus">
+      <br/><br/>
+      <button class="btn btn-primary" (click)="onAddServer()">Add Server</button>
+      <br/><br/>
+      <h2>App Status: {{ appStatus }}</h2>
+      <h2>App Status: {{ appStatus | async}}</h2>
+      <hr>
+      <ul class="list-group">
+
+        <!-- WITHOUT PIPES APPLIED -->
+        <!-- <li class="list-group-item" *ngFor="let server of servers" [ngClass]="getStatusClasses(server)">
+          <span class="badge badge-secondary float-right">
+            {{ server.status }}
+          </span>
+          <strong>{{ server.name }}</strong> |
+                  {{ server.instanceType }} |
+                  {{ server.started }}          
+        </li> -->
+        <!-- WITHOUT PIPES APPLIED -->
+
+        <!-- WITH PIPES APPLIED -->
+        <li
+          class="list-group-item"
+          *ngFor="let server of servers | filter:filteredStatus:'status'"
+          [ngClass]="getStatusClasses(server)">
+          <span 
+            class="badge badge-secondary float-right">
+            {{ server.status }}
+          </span>          
+          <strong>{{ server.name | shorten:9 }}</strong> |
+          {{ server.instanceType | uppercase }} |
+          {{ server.started | date:'fullDate' | uppercase }}    <!-- CHAINING PIPES -  Pipes are applied left to right -->
+          <!-- {{ server.started | uppercase | date:'fullDate' }} -->  <!-- CHAINING PIPES -  This will give error as you can't appy full date to string uppercase      -->
+          <!-- {{ server.started | date:'fullDate' | uppercase }} -->    <!-- CHAINING PIPES -  Pipes are applied left to right -->
+        </li>
+        <!-- WITH PIPES APPLIED -->
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 
+  WHERE TO FIND MORE ABOUT PIPES...
+  https://angular.io
+  DOCS
+  API
+  API List ... filter..pipe
+  https://angular.io/api/common/DatePipe 
+
+  {{ server.started | date }}
+  
+  Pipes parameterized:
+  -------------------
+  {{ server.started | date:'fullDate' }}
+  
+  Pipes Chained:
+  -------------
+  {{ server.started | date:'fullDate' | uppercase }}
+
+  Pipes when chained are applied from left to right-->
+  
+  <!-- 
+  CREATE OUR OWN PIPE: 
+  --------------------
+  ng generate pipe filter  
+  OR  
+  ng g p filter
+
+  Note: in this example filter pipe is applied to an Array, shorten pipe is applied to a String.
+ -->
