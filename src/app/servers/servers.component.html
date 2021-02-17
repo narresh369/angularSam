@@ -1,0 +1,64 @@
+
+
+<!-- PROPERTY BINDING AND EVENT BINDING-->
+
+<!-- 1st method of two way databinding with $event -->
+
+<!-- 1111111111111111111111111111111111 -->
+<!-- <label  style="color:green">With Property Binding - 
+  One Way Data Binding</label>
+<input
+  type="text"
+  class="form-control"
+  (input)="onUpdateServerName($event)">
+
+  <p>{{ serverName }}</p> -->
+
+  <!-- <hr style="border-top:1px solid navy"> -->
+
+<!-- TWO-WAY DATA BINDING -->
+
+  <!-- 2nd method using two way databinging...angular will do this for us -->
+
+  <!-- 22222222222222222222222222222222222 -->
+  <!-- <label style="color:red">With Two Way Data Binding</label>
+<input
+  type="text"
+  class="form-control"
+  [(ngModel)]="serverName">
+
+<p>{{ serverName }}</p> -->
+
+
+<!-- TO MAKE THE ABOVE BUTTON DYNAMIC -->
+
+<!-- 333333333333333333333333333333333 -->
+<!-- <label  style="color:blue">Property Binding - with button click event</label>
+<br>
+<button
+  class="btn btn-primary"
+  [disabled]="!allowNewServer"
+  (click)="onCreateServer()">Add Server</button>
+ -->
+ <!--  <button
+  class="btn btn-primary"
+  [disabled]="callMe()"
+  (click)="onCreateServer()">Add Server</button> -->
+  <br>
+
+
+<!--   <button
+  class="btn btn-primary"
+  disabled
+  >Add 11111111</button> -->
+
+  <!-- <p>{{ allowNewServer }}</p> -->
+
+<!--   <p>{{ serverCreationStatus }} - {{ cnt }}</p> -->
+
+   <!-- <p [innerText]="allowNewServer"></p>  -->
+
+
+  <!-- DON'T MIX STRING INTRERPOLATION AND PROPERTY BINDING AS YOU MAY MIX THE SYNTAX AND CODE MAY BREAK-->
+
+

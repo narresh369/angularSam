@@ -1,0 +1,429 @@
+https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+====================================
+git init -b main
+git remote add origin https://github.com/narresh369/angularSam.git
+git remote -v
+git push origin main
+====================================
+
+naresh@DESKTOP-6KSTHAA MINGW64 /f/angularsam
+$ git init -b main
+Initialized empty Git repository in F:/angularSam/.git/
+
+naresh@DESKTOP-6KSTHAA MINGW64 /f/angularsam (main)
+$ git add .
+warning: LF will be replaced by CRLF in .browserslistrc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in karma.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/.editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/angular.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/e2e/protractor.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/e2e/src/app.po.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/how-to-use.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/browserslist.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/karma.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/styles.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/tsconfig.spec.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/tslint.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/tslint.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/app.component.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/server/server.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/server/server.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/servers/servers.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/servers/servers.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/test/test.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/test/test.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/app/test/test.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/styles.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/tsconfig.spec.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/OTHERS/src-databindingNew/typings.d.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/app.component.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/app.component.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/server/server.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/server/server.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/servers/servers.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/example/servers/servers.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/server/server.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/server/server.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/servers/servers.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/app/servers/servers.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/styles.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src-Lesson1-Components/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.spec.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory
+
+naresh@DESKTOP-6KSTHAA MINGW64 /f/angularsam (main)
+$ git commit -m "First commit"
+[main (root-commit) 50dccf5] First commit
+ 210 files changed, 36614 insertions(+)
+ create mode 100644 .browserslistrc
+ create mode 100644 .editorconfig
+ create mode 100644 .gitignore
+ create mode 100644 Introduction-Screens/0.1.png
+ create mode 100644 Introduction-Screens/0.2.png
+ create mode 100644 Introduction-Screens/0.3.png
+ create mode 100644 Introduction-Screens/0.4
+ create mode 100644 Introduction-Screens/0.5.jpg
+ create mode 100644 Introduction-Screens/0.6.jpeg
+ create mode 100644 Introduction-Screens/0.7.png
+ create mode 100644 Introduction-Screens/0.8.png
+ create mode 100644 Introduction-Screens/0.9.png
+ create mode 100644 Introduction-Screens/0.png
+ create mode 100644 Introduction-Screens/1.png
+ create mode 100644 Introduction-Screens/2.png
+ create mode 100644 Introduction-Screens/3.png
+ create mode 100644 Introduction-Screens/4.1.png
+ create mode 100644 Introduction-Screens/4.png
+ create mode 100644 Introduction-Screens/5.png
+ create mode 100644 Introduction-Screens/6.png
+ create mode 100644 README.md
+ create mode 100644 STEPS.txt
+ create mode 100644 angular.json
+ create mode 100644 karma.conf.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/TASK.png
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution.zip
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/._basics-assignment-2-solution
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._.DS_Store
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._.editorconfig
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._.gitignore
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._README.md
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._angular.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._e2e
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._how-to-use.txt
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._package.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._src
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._tsconfig.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/._tslint.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/e2e/._protractor.conf.js
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/e2e/._src
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/e2e/._tsconfig.e2e.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/e2e/src/._app.e2e-spec.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/e2e/src/._app.po.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._.DS_Store
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._app
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._assets
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._browserslist
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._environments
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._favicon.ico
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._index.html
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._karma.conf.js
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._main.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._polyfills.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._styles.css
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._test.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._tsconfig.app.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._tsconfig.spec.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/._tslint.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/app/._app.component.css
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/app/._app.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/app/._app.component.spec.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/app/._app.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/app/._app.module.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/assets/._.gitkeep
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/environments/._environment.prod.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/__MACOSX/basics-assignment-2-solution/src/environments/._environment.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/.editorconfig
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/.gitignore
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/README.md
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/angular.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/e2e/protractor.conf.js
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/e2e/src/app.e2e-spec.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/e2e/src/app.po.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/e2e/tsconfig.e2e.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/how-to-use.txt
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/package.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.component.css
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.component.spec.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/app/app.module.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/assets/.gitkeep
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/browserslist
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/environments/environment.prod.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/environments/environment.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/favicon.ico
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/index.html
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/karma.conf.js
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/main.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/polyfills.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/styles.css
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/test.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/tsconfig.app.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/tsconfig.spec.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/src/tslint.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/tsconfig.json
+ create mode 100644 src-Lesson1-Components/OTHERS/ASSIGNMENT/basics-assignment-2-solution/basics-assignment-2-solution/tslint.json
+ create mode 100644 src-Lesson1-Components/OTHERS/screens/0.Topics to cover.png
+ create mode 100644 src-Lesson1-Components/OTHERS/screens/1.Understanding Databinding.png
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/._basics-components
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._.DS_Store
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._.editorconfig
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._.gitignore
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._README.md
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._angular.json
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._e2e
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._how-to-use.txt
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._package.json
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._src
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._tsconfig.json
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/._tslint.json
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/e2e/._protractor.conf.js
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/e2e/._src
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/e2e/._tsconfig.e2e.json
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/e2e/src/._app.e2e-spec.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/e2e/src/._app.po.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._.DS_Store
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._app
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._assets
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._browserslist
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._environments
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._favicon.ico
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._index.html
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._karma.conf.js
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._main.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._polyfills.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._styles.css
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._test.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._tsconfig.app.json
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._tsconfig.spec.json
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/._tslint.json
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/._app.component.css
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/._app.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/._app.component.spec.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/._app.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/._app.module.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/._server
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/._servers
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/server/._server.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/server/._server.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/servers/._servers.component.css
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/servers/._servers.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/app/servers/._servers.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/assets/._.gitkeep
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/environments/._environment.prod.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/__MACOSX/basics-components/src/environments/._environment.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/basics-components.zip
+ create mode 100644 src-Lesson1-Components/OTHERS/source-code/basics-databinding.zip
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/app.component.css
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/app.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/app.component.spec.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/app.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/app.module.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/server/server.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/server/server.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/servers/servers.component.css
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/servers/servers.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/servers/servers.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/test/test.component.css
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/test/test.component.html
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/test/test.component.spec.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/app/test/test.component.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/assets/.gitkeep
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/environments/environment.prod.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/environments/environment.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/favicon.ico
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/index.html
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/main.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/polyfills.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/styles.css
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/test.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/tsconfig.app.json
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/tsconfig.spec.json
+ create mode 100644 src-Lesson1-Components/OTHERS/src-databindingNew/typings.d.ts
+ create mode 100644 src-Lesson1-Components/OTHERS/steps-data-binding.txt
+ create mode 100644 src-Lesson1-Components/app/app.component.css
+ create mode 100644 src-Lesson1-Components/app/app.component.html
+ create mode 100644 src-Lesson1-Components/app/app.component.spec.ts
+ create mode 100644 src-Lesson1-Components/app/app.component.ts
+ create mode 100644 src-Lesson1-Components/app/app.module.ts
+ create mode 100644 src-Lesson1-Components/app/example/app.component.css
+ create mode 100644 src-Lesson1-Components/app/example/app.component.html
+ create mode 100644 src-Lesson1-Components/app/example/app.component.spec.ts
+ create mode 100644 src-Lesson1-Components/app/example/app.component.ts
+ create mode 100644 src-Lesson1-Components/app/example/app.module.ts
+ create mode 100644 src-Lesson1-Components/app/example/server/server.component.html
+ create mode 100644 src-Lesson1-Components/app/example/server/server.component.ts
+ create mode 100644 src-Lesson1-Components/app/example/servers/servers.component.css
+ create mode 100644 src-Lesson1-Components/app/example/servers/servers.component.html
+ create mode 100644 src-Lesson1-Components/app/example/servers/servers.component.ts
+ create mode 100644 src-Lesson1-Components/app/server/server.component.html
+ create mode 100644 src-Lesson1-Components/app/server/server.component.ts
+ create mode 100644 src-Lesson1-Components/app/servers/servers.component.css
+ create mode 100644 src-Lesson1-Components/app/servers/servers.component.html
+ create mode 100644 src-Lesson1-Components/app/servers/servers.component.ts
+ create mode 100644 src-Lesson1-Components/assets/.gitkeep
+ create mode 100644 src-Lesson1-Components/environments/environment.prod.ts
+ create mode 100644 src-Lesson1-Components/environments/environment.ts
+ create mode 100644 src-Lesson1-Components/favicon.ico
+ create mode 100644 src-Lesson1-Components/index.html
+ create mode 100644 src-Lesson1-Components/main.ts
+ create mode 100644 src-Lesson1-Components/polyfills.ts
+ create mode 100644 src-Lesson1-Components/styles.css
+ create mode 100644 src-Lesson1-Components/test.ts
+ create mode 100644 tsconfig.app.json
+ create mode 100644 tsconfig.json
+ create mode 100644 tsconfig.spec.json
+ create mode 100644 tslint.json
+
+naresh@DESKTOP-6KSTHAA MINGW64 /f/angularsam (main)
+$ git remote add origin https://github.com/narresh369/angularSam.git
+
+naresh@DESKTOP-6KSTHAA MINGW64 /f/angularsam (main)
+$ git remote -v
+origin  https://github.com/narresh369/angularSam.git (fetch)
+origin  https://github.com/narresh369/angularSam.git (push)
+
+naresh@DESKTOP-6KSTHAA MINGW64 /f/angularsam (main)
+$ git push origin main
+Enumerating objects: 199, done.
+Counting objects: 100% (199/199), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (190/190), done.
+Writing objects: 100% (199/199), 4.60 MiB | 453.00 KiB/s, done.
+Total 199 (delta 57), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (57/57), done.
+To https://github.com/narresh369/angularSam.git
+ * [new branch]      main -> main
+
+naresh@DESKTOP-6KSTHAA MINGW64 /f/angularsam (main)
+$
