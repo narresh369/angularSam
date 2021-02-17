@@ -1,0 +1,405 @@
+
+C:\Users\naresh>ng --version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 11.1.3
+Node: 10.16.3
+OS: win32 x64
+
+Angular:
+...
+Ivy Workspace:
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1101.3 (cli-only)
+@angular-devkit/core         11.1.3 (cli-only)
+@angular-devkit/schematics   11.1.3 (cli-only)
+@schematics/angular          11.1.3 (cli-only)
+@schematics/update           0.1101.3 (cli-only)
+
+
+C:\Users\naresh>
+===============================================================================================
+
+version 11.1.3
+ng new angular11TrainingApp
+================================================================================================
+cd angular11TrainingApp
+================================================================================================
+ng serve
+================================================================================================
+Open Chrome Browser and key-in....
+http://localhost:4200
+================================================================================================
+
+================================================================================================
+BOOTSTRAP:
+---------
+npm install --save bootstrap@3 
+
+===================================================================
+you'll have an angular.json  file instead of an .angular-cli.json  file. 
+In that file, you still need to add Bootstrap to the styles[]  array, 
+but the path should be 
+"node_modules/bootstrap/dist/css/bootstrap.min.css" , 
+
+===================================================================
+*********** INSTALLED ************
+npm install --save rxjs-compat
+================================================================================================
+FIREBASE: 	[ REQUIRED FOR src-Lesson10-Authentication ]
+--------
+npm install -save firebase
+npm install -save angularfire2
+npm install --save ngx-toastr
+================================================================================================
+add "node_modules/ngx-toastr/toastr.css",
+in angular.json file
+================================================================================================
+ "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "src/styles.css"
+            ],
+================================================================================================
+CHANGE firebase in package.json file and run npm i
+================================================================================================
+CHANGE THIS:
+------------
+    "firebase": "^8.2.6",
+    "ngx-toastr": "^13.2.0",
+TO THIS:
+-------	
+  "firebase": "^7.17.1",
+    "ngx-toastr": "^13.0.0",
+	
+
+================================================================================================
+
+================================================================================================
+FOR TESTING: [ src-Lesson12-Testing ]
+============
+ng test
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+
+
+
+
+
+================================================================================================
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e
+$ ng new angular11TrainingApp
+CREATE angular11TrainingApp/angular.json (3647 bytes)
+CREATE angular11TrainingApp/package.json (1212 bytes)
+CREATE angular11TrainingApp/README.md (1029 bytes)
+CREATE angular11TrainingApp/tsconfig.json (538 bytes)
+CREATE angular11TrainingApp/tslint.json (3185 bytes)
+CREATE angular11TrainingApp/.editorconfig (274 bytes)
+CREATE angular11TrainingApp/.gitignore (631 bytes)
+CREATE angular11TrainingApp/.browserslistrc (703 bytes)
+CREATE angular11TrainingApp/karma.conf.js (1437 bytes)
+CREATE angular11TrainingApp/tsconfig.app.json (287 bytes)
+CREATE angular11TrainingApp/tsconfig.spec.json (333 bytes)
+CREATE angular11TrainingApp/src/favicon.ico (948 bytes)
+CREATE angular11TrainingApp/src/index.html (306 bytes)
+CREATE angular11TrainingApp/src/main.ts (372 bytes)
+CREATE angular11TrainingApp/src/polyfills.ts (2830 bytes)
+CREATE angular11TrainingApp/src/styles.css (80 bytes)
+CREATE angular11TrainingApp/src/test.ts (753 bytes)
+CREATE angular11TrainingApp/src/assets/.gitkeep (0 bytes)
+CREATE angular11TrainingApp/src/environments/environment.prod.ts (51 bytes)
+CREATE angular11TrainingApp/src/environments/environment.ts (662 bytes)
+CREATE angular11TrainingApp/src/app/app.module.ts (314 bytes)
+CREATE angular11TrainingApp/src/app/app.component.html (25725 bytes)
+CREATE angular11TrainingApp/src/app/app.component.spec.ts (982 bytes)
+CREATE angular11TrainingApp/src/app/app.component.ts (224 bytes)
+CREATE angular11TrainingApp/src/app/app.component.css (0 bytes)
+CREATE angular11TrainingApp/e2e/protractor.conf.js (904 bytes)
+CREATE angular11TrainingApp/e2e/tsconfig.json (274 bytes)
+CREATE angular11TrainingApp/e2e/src/app.e2e-spec.ts (671 bytes)
+CREATE angular11TrainingApp/e2e/src/app.po.ts (274 bytes)
+- Installing packages (npm)...
+ΓêÜ Packages installed successfully.
+warning: LF will be replaced by CRLF in .browserslistrc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in karma.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.spec.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory
+    Successfully initialized git.
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e
+$
+
+================================================================================================
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$ ng serve
+- Generating browser application bundles...
+ΓêÜ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |      Size
+vendor.js             | vendor        |   2.43 MB
+polyfills.js          | polyfills     | 472.77 kB
+styles.css, styles.js | styles        | 345.96 kB
+main.js               | main          |  56.27 kB
+runtime.js            | runtime       |   6.15 kB
+
+| Initial Total |   3.29 MB
+
+Build at: 2021-02-05T11:06:49.229Z - Hash: e443a6ba062b2a4cfb1d - Time: 8172ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+ΓêÜ Compiled successfully.
+
+================================================================================================
+
+================================================================================================
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$ npm install --save bootstrap@3
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.1 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@3.4.1
+added 1 package from 1 contributor, removed 1 package and audited 1617 packages in 11.706s
+found 0 vulnerabilities
+
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$
+
+================================================================================================
+
+================================================================================================
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$ npm install -save firebase
+
+> core-js@3.6.5 postinstall E:\angular11TrainingApp\node_modules\@firebase\polyfill\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> protobufjs@6.10.2 postinstall E:\angular11TrainingApp\node_modules\protobufjs
+> node scripts/postinstall
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.1 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ firebase@8.2.6
+added 82 packages from 71 contributors, removed 1 package and audited 1699 packages in 66.898s
+found 0 vulnerabilities
+
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$ npm install -save angularfire2
+npm WARN deprecated angularfire2@5.4.2: AngularFire has moved, we're now @angular/fire
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/common@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/core@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/platform-browser@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/platform-browser-dynamic@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of firebase@>= 5.5.7 <8 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.1 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ angularfire2@5.4.2
+added 2 packages from 1 contributor and audited 1701 packages in 11.527s
+found 0 vulnerabilities
+
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$ npm install --save ngx-toastr
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/common@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/core@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/platform-browser@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/platform-browser-dynamic@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of firebase@>= 5.5.7 <8 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.1 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ ngx-toastr@13.2.0
+added 1 package and audited 1702 packages in 13.19s
+found 0 vulnerabilities
+
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$
+
+================================================================================================
+
+================================================================================================
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$ npm install --save rxjs-compat
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/common@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/core@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/platform-browser@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/platform-browser-dynamic@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of firebase@>= 5.5.7 <8 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.1 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ rxjs-compat@6.6.3
+added 1 package, removed 1 package and audited 1703 packages in 12.836s
+found 0 vulnerabilities
+
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$
+
+================================================================================================
+
+================================================================================================
+
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$ npm i
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/common@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/core@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/platform-browser@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN @angular/fire@5.4.2 requires a peer of @angular/platform-browser-dynamic@>=6.0.0 <9 || ^9.0.0-0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.1 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.1: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\watchpack-chokidar2\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.13 (node_modules\webpack-dev-server\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.13: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+updated 18 packages and audited 1703 packages in 39.718s
+found 0 vulnerabilities
+
+
+naresh@DESKTOP-6CLSK89 MINGW64 /e/angular11TrainingApp (master)
+$
+
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
+================================================================================================
+
